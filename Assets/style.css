@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
   }
 
 header {
@@ -46,6 +44,10 @@ header nav {
 
 }
 
+main {
+  flex-direction: row;
+}
+
 .about-me,
 .work,
 .contact-me {
@@ -55,12 +57,12 @@ header nav {
   position: relative;
 }
 
-.project-one{
-  background-image: url(https://austinslatey.github.io/Horiseon-Industries/);
+.project-one {
+  background-image: url("https://dsm01pap001files.storage.live.com/y4mpfSHmkO2Cd8Ch9s0uMPjusMsZH7qSFQuwZwh8SABAk_yTAVW49LQST9UXNFkIg4kYWcBwUbQTiB3J2Ux5yeo35riVVhXhSyOr9uD1tAWkyhOLOjxUSk2rifjMOi2Z4mBLbbHay8yKUPY2k4y7eCdDpDit6u3_D3Z8HfOpeaBeT85htBo6l64umPcT0uiZ56X?width=256&height=122&cropmode=none");
 }
 
 .about-me p {
-  flex-direction: column;
+  flex-direction: row;
   font-size: 24px;
 }
 
@@ -77,7 +79,15 @@ h2 {
   white-space: nowrap;
   flex: 0; 
   position: sticky;
-  position: -webkit-sticky;
+  text-align: center;
+  color:red;
+}
+h2 a {
+  color: green; 
+}
+
+h3 {
+  color: purple;
 }
 
 a:hover {
@@ -86,5 +96,18 @@ a:hover {
 
 
 footer {
-  flex: 0;
+  flex-direction: column;
+  flex: 0 1 1;
+}
+
+footer article {
+  font-size: 25px;
+  text-align: center;
+}
+
+footer h2 {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
 }
