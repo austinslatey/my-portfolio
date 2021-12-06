@@ -40,25 +40,54 @@ header nav {
   display: flex;
   flex-wrap: wrap;
   background-image: linear-gradient(to bottom right, red, yellow);  
-  height: 30vh ;
+  height: 25vh ;
 
 }
 
-main {
-  flex-direction: row;
-}
-
+main,
 .about-me,
 .work,
-.contact-me {
+.contact-me
+footer {
   display: flex;
   flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
   justify-content: space-between;
   position: relative;
 }
 
+main,
+footer {
+  background-image: linear-gradient(to bottom right, blue, black);
+}
 .project-one {
   background-image: url("https://dsm01pap001files.storage.live.com/y4mpfSHmkO2Cd8Ch9s0uMPjusMsZH7qSFQuwZwh8SABAk_yTAVW49LQST9UXNFkIg4kYWcBwUbQTiB3J2Ux5yeo35riVVhXhSyOr9uD1tAWkyhOLOjxUSk2rifjMOi2Z4mBLbbHay8yKUPY2k4y7eCdDpDit6u3_D3Z8HfOpeaBeT85htBo6l64umPcT0uiZ56X?width=256&height=122&cropmode=none");
+}
+
+.project-2 {
+  background-image: url("https://www.rd.com/wp-content/uploads/2016/04/rock-paper-scissor-ft.jpg");
+  background-size: contain;
+  flex-direction: column;
+  background-size: 150px;
+  font-size: medium;
+  width: 200px;
+}
+
+.project-3 {
+  background-size: contain;
+  flex-direction: column;
+  background-size: 150px;
+  background-image: url("https://ecdn.teacherspayteachers.com/thumbitem/Coding-Portfolio-3697440-1533906306/original-3697440-1.jpg");
+}
+
+.project-3 a,
+.project-3 h3 {
+  color: orange;
+}
+.project-2 h3,
+.project-2 a {
+  color: white;
 }
 
 .about-me p {
@@ -92,12 +121,17 @@ h3 {
 
 a:hover {
   background-color: yellow;
+  font-size: medium;
 }
 
 
 footer {
   flex-direction: column;
   flex: 0 1 1;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
 }
 
 footer article {
