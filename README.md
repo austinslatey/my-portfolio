@@ -1,1 +1,2 @@
 # my-portfolio
+ here is my wonderful portfolio, it may look like it was an effortless project, but I struggled all the way through it. I have learned a lot, and will continue to tweak this repository as my skills strengthen in coding.
