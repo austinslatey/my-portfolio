@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
   }
 
 header {
@@ -9,7 +10,6 @@ header {
         justify-content: space-between;
         flex-wrap: wrap;
         position: sticky;
-        position: -webkit-sticky;
         top: 0;
         background-size: cover;
         background-attachment: fixed;
@@ -41,7 +41,6 @@ header nav {
   flex-wrap: wrap;
   background-image: linear-gradient(to bottom right, red, yellow);  
   height: 25vh ;
-
 }
 
 main,
@@ -57,37 +56,48 @@ footer {
   position: relative;
 }
 
-main,
-footer {
-  background-image: linear-gradient(to bottom right, blue, black);
+main {
+  background-image: linear-gradient(to bottom right, rgb(0, 255, 213), black);
 }
 .project-one {
   background-image: url("https://dsm01pap001files.storage.live.com/y4mpfSHmkO2Cd8Ch9s0uMPjusMsZH7qSFQuwZwh8SABAk_yTAVW49LQST9UXNFkIg4kYWcBwUbQTiB3J2Ux5yeo35riVVhXhSyOr9uD1tAWkyhOLOjxUSk2rifjMOi2Z4mBLbbHay8yKUPY2k4y7eCdDpDit6u3_D3Z8HfOpeaBeT85htBo6l64umPcT0uiZ56X?width=256&height=122&cropmode=none");
 }
 
-.project-2 {
+.project-1, 
+.project-2,
+.project-3,
+.project-4 {
   background-image: url("https://www.rd.com/wp-content/uploads/2016/04/rock-paper-scissor-ft.jpg");
   background-size: contain;
   flex-direction: column;
-  background-size: 150px;
   font-size: medium;
-  width: 200px;
+  width: 175px;
+  height: 100;
 }
 
 .project-3 {
-  background-size: contain;
-  flex-direction: column;
   background-size: 150px;
   background-image: url("https://ecdn.teacherspayteachers.com/thumbitem/Coding-Portfolio-3697440-1533906306/original-3697440-1.jpg");
 }
 
 .project-3 a,
 .project-3 h3 {
-  color: orange;
+  color: rgb(255, 0, 0);
+  font-weight: bolder;
 }
 .project-2 h3,
 .project-2 a {
   color: white;
+}
+
+.project-4, 
+.project-4 a {
+  background-image: url("https://user-images.githubusercontent.com/93648326/149425101-bf29c067-c863-48dc-82ce-7acb6e5051c5.png");
+  color: black;
+}
+
+.project-4 a:hover {
+  background-color: coral;
 }
 
 .about-me p {
@@ -96,8 +106,8 @@ footer {
 }
 
 h2 {
-  border: 0.5rem outset green;
-  outline: 0.5rem solid khaki;
+  border: 1rem outset green;
+  outline: 1rem solid khaki;
   box-shadow: 0 0 0 2rem skyblue;
   border-radius: 12px;
   font: bold 1rem sans-serif;
@@ -105,24 +115,31 @@ h2 {
   padding: 1rem;
   outline-offset: 0.5rem;
   display: flex;
-  white-space: nowrap;
+  white-space: pre-wrap;
   flex: 0; 
   position: sticky;
-  text-align: center;
+  text-align:justify;
   color:red;
 }
 h2 a {
   color: green; 
 }
 
+#about-me h2,
+#about-me p {
+  color: black;
+  font-size: 20px;
+}
+
 h3 {
-  color: purple;
+  color: rgb(128, 0, 0);
 }
 
 a:hover {
   background-color: yellow;
   font-size: medium;
 }
+
 
 
 footer {
@@ -132,6 +149,7 @@ footer {
   flex-wrap: wrap;
   font-size: 30px;
   text-align: center;
+  background-image: radial-gradient(circle at 100%, rgb(51, 51, 51), #333 50%, #eee 75%, rgb(51, 51, 51) 75%);
 }
 
 footer article {
@@ -144,4 +162,8 @@ footer h2 {
   flex-wrap: wrap;
   font-size: 30px;
   text-align: center;
+}
+
+footer a {
+  color: blue;
 }
