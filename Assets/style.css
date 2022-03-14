@@ -64,20 +64,12 @@ main {
 }
 
 .project-1, 
-.project-2,
-.project-3,
-.project-4 {
-  background-image: url("https://www.rd.com/wp-content/uploads/2016/04/rock-paper-scissor-ft.jpg");
+.project-2 {
   background-size: contain;
   flex-direction: column;
   font-size: medium;
   width: 175px;
   height: 100;
-}
-
-.project-3 {
-  background-size: 150px;
-  background-image: url("https://ecdn.teacherspayteachers.com/thumbitem/Coding-Portfolio-3697440-1533906306/original-3697440-1.jpg");
 }
 
 .project-3 a,
