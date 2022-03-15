@@ -59,8 +59,9 @@ footer {
 main {
   background-image: linear-gradient(to bottom right, rgb(0, 255, 213), black);
 }
-.project-one {
-  background-image: url("https://dsm01pap001files.storage.live.com/y4mpfSHmkO2Cd8Ch9s0uMPjusMsZH7qSFQuwZwh8SABAk_yTAVW49LQST9UXNFkIg4kYWcBwUbQTiB3J2Ux5yeo35riVVhXhSyOr9uD1tAWkyhOLOjxUSk2rifjMOi2Z4mBLbbHay8yKUPY2k4y7eCdDpDit6u3_D3Z8HfOpeaBeT85htBo6l64umPcT0uiZ56X?width=256&height=122&cropmode=none");
+
+.card {
+  margin-bottom: 10px;
 }
 
 .project-1, 
